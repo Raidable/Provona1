@@ -907,7 +907,7 @@ else:
     etichetta = "Bouquet di Tulipani"
     scene = build_tulip_bouquet(st.session_state.seed_tulips)
 
-titolo_alto = "Per Anna e Misha - Supporto morale studio - Forza Giugliano"
+titolo_alto = "Per Anna e Misha - Supporto morale - Forza Giugliano"
 st.html(
     f'<div class="anna-header"><div class="anna-title">{escape_html(titolo_alto)}</div>'
     f'<div class="anna-dedica">{escape_html(etichetta)}</div></div>'
